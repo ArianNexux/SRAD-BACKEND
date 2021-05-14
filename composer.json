@@ -1,0 +1,22 @@
+{
+    "name": "enapp/infosi",
+    "description": "",
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php",
+            "source/Helpers.php"
+        ]
+    },
+    "require": {
+        "khanamiryan/qrcode-detector-decoder": "^1.0",
+        "coffeecode/datalayer": "^1.1",
+        "coffeecode/router": "^1.0",
+        "coffeecode/paginator": "^1.0",
+        "dompdf/dompdf": "^0.8.6",
+        "guzzlehttp/guzzle": "^7.2",
+        "phpmailer/phpmailer": "^6.2"
+    }
+}
